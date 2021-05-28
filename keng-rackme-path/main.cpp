@@ -53,7 +53,7 @@ int __cdecl main()
 		system("pause");
 		return EXIT_FAILURE;
 	}
-
+	CloseHandle(hProc);
 
 	return EXIT_SUCCESS;
 }
